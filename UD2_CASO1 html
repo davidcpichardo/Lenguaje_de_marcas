@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+    <html lang="es">
+        <head>
+            <title>
+                FORMULARIO
+            </title>
+            <link rel="stylesheet" type="text/css" href="STYLE.css">
+        </head>
+        <body>
+            <!--añadimos clase a cada input para editarlo por separado-->
+            <form>
+                <p> 
+                    <input class="usuario" type="text"  placeholder="USER"/>
+                </p>
+                
+                <p>
+                    <input class="contraseña"type="password" placeholder="PASSWORD"/>
+                </p>
+                <p>
+                    <input class="boton" type="submit" value="ENTRAR"/>
+                </p>
+               
+            </form>
+           
+        </body>
+
+    </html>
