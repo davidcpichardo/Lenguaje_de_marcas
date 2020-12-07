@@ -1,0 +1,46 @@
+/*eliminamos márgenes*/
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+/*Añadimos imagen al fondo*/
+.fondo{
+    background-image: url("img/fondo.jpg");
+    height: 200px;
+}
+/*damos color al body*/
+body{
+    background-color:black;
+}
+/*modificamos la barra lateral*/
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(3, 65, 136), black)
+  }
+  #sidebar ul li a{
+    display:inline-block;
+    width: 150px;
+    margin:10px;
+    color: white;
+    list-style: none;
+    padding: 15px 15px;
+    text-align: center;
+    border:2px solid white;
+    text-decoration: none;
+  }
+  #sidebar ul li a:hover{
+      background-color: black;
+  }
+/*añadimos el pie de página*/
+footer h3 { 
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align: center;
+    color:white;
+    }
+
